@@ -4,13 +4,13 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './teleporthq/style.css'
-import Home from './teleporthq/pages/home'
+import JayJayBanner from './teleporthq/components/jay-jay-banner'
 
 const App = () => {
   return (
     <Router>
       <AppStateProvider>
-        <Route component={Home} exact path="/" />
+        <Route component={JayJayBanner} exact path="/" />
       </AppStateProvider>
     </Router>
   )

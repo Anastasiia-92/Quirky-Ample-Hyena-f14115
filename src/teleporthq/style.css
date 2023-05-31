@@ -20,6 +20,7 @@
   --dl-color-success-300: #199033;
   --dl-color-success-500: #32A94C;
   --dl-color-success-700: #4CC366;
+  --dl-size-size-desktop: 1024px;
   --dl-size-size-xxlarge: 288px;
   --dl-size-size-maxwidth: 1400px;
   --dl-color-default-white: rgba(255, 255, 255, 1);
@@ -78,6 +79,42 @@
   display: flex !important;
   transform: none !important;
 }
+.banner_1024 {
+  width: 1024px;
+  height: auto;
+  display: block;
+  min-width: 1024px;
+}
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background:  linear-gradient(     90deg,     #b2e4ff 0%,     #b5ddff 26%,     #bdcbff 58%,     #caadff 79%,     #d593ff 100%   );
+  align-items: center;
+  justify-content: center;
+}
+.banner_768 {
+  width: 768px;
+  height: auto;
+  display: block;
+  min-width: 768px;
+}
+.banner_320 {
+  width: 320px;
+  height: auto;
+  display: block;
+  min-width: 320px;
+}
+.test {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .Content {
   font-size: 16px;
   font-family: Inter;
@@ -93,4 +130,13 @@
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
+}
+
+
+
+
+@media(max-width: 480px) {
+  .container {
+    justify-content: flex-start;
+  }
 }

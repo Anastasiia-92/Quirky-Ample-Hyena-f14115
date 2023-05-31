@@ -155,3 +155,11 @@
   font-style: normal;
   font-weight: 500;
 }
+.home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}

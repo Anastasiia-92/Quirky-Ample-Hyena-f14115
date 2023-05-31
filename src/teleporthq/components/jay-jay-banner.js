@@ -16,7 +16,7 @@ const JayJayBanner = (props) => {
         <img
           alt={props.image_alt}
           src={props.image_src}
-          className="jay-jay-banner-image1024 banner_1024"
+          className="banner_1024 jay-jay-banner-image1024"
         />
         <img
           alt={props.image_alt1}
@@ -34,9 +34,9 @@ const JayJayBanner = (props) => {
 }
 
 JayJayBanner.defaultProps = {
-  image_src1: '/playground_assets/jay_jay_banner_768.png',
-  image_src2: '/playground_assets/jay_jay_banner_320.png',
-  image_src: '/playground_assets/jay_jay_banner_1024.png',
+  image_src1: '/jay_jay_banner_768.png',
+  image_src2: '/jay_jay_banner_320.png',
+  image_src: '/jay_jay_banner_1024.png',
   image_alt2: 'image',
   text1: 'Link',
   image_alt: 'image',

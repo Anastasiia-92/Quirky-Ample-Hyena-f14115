@@ -47,6 +47,7 @@ const Home = (props) => {
           </li>
         </ul>
       </div>
+      <div className="home-container1"></div>
     </div>
   )
 }
